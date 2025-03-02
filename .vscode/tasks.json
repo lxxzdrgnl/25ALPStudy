@@ -16,13 +16,14 @@
  
             // "args" : command에 옵션으로 사용될 인자들로, 컴파일러 실행시 전달할 인자들에 해당합니다.
             "args": [
-                "-fdiagnostics-color=always",
-                "-Wall",
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
+    "-fdiagnostics-color=always",
+    "-Wall",
+    "-g",
+    "${file}",
+    "-o",
+    "${fileDirname}/${fileBasenameNoExtension}.exe"
+]
+,
  
             // "cwd" : 빌드 작업이 실행될 경로, 해당 프로젝트 폴더입니다.
             "options": {
