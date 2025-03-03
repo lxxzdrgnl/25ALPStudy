@@ -78,6 +78,4 @@ int main() {
 
         if (!escaped) cout << "IMPOSSIBLE\n";
     }
-
-    return 0;
 }
