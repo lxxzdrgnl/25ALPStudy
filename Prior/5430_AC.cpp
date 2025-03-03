@@ -1,6 +1,7 @@
-#include <iostream>
 #include <bits/stdc++.h>
- 
+
+#include <iostream>
+
 using namespace std;
 
 int main() {
@@ -22,14 +23,14 @@ int main() {
         string num = "";
         for (char c : arr) {
             if (isdigit(c)) {
-                num += c; // 숫자면 문자열에 추가
-            } else if (!num.empty()) { // 숫자가 끝났으면 deque에 추가
+                num += c;               // 숫자면 문자열에 추가
+            } else if (!num.empty()) {  // 숫자가 끝났으면 deque에 추가
                 dq.push_back(stoi(num));
                 num = "";
             }
         }
 
-        //명령 수행
+        // 명령 수행
         for (char cmd : p) {
             if (cmd == 'R') {
                 rev = !rev;
@@ -42,7 +43,7 @@ int main() {
             }
         }
 
-        //결과 출력
+        // 결과 출력
         if (error) {
             cout << "error\n";
         } else {
