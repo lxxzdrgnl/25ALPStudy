@@ -4,5 +4,6 @@
         "iostream": "cpp",
         "ostream": "cpp"
     },
-    "BOJ-Tester.defaultLanguage": "cpp"
+    "BOJ-Tester.defaultLanguage": "cpp",
+    "C_Cpp.errorSquiggles": "disabled"
 }
