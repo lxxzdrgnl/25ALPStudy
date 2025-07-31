@@ -1,0 +1,10 @@
+{
+    "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/g++.exe",
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "chrono": "cpp"
+    },
+    "BOJ-Tester.defaultLanguage": "cpp",
+    "C_Cpp.errorSquiggles": "disabled"
+}
